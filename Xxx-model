@@ -1,0 +1,60 @@
+<section class="hero">
+  <div class="overlay">
+    <h1>Добро пожаловать</h1>
+    <p>Лучший современный сайт</p>
+
+    <a class="btn" href="https://t.me/Kolya_BoSSs" target="_blank">
+      Перейти в Telegram
+    </a>
+  </div>
+</section>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#000;
+}
+
+.hero{
+    height:100vh;
+    background:url("beach.jpg") center/cover no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.overlay{
+    background:rgba(0,0,0,.45);
+    padding:40px;
+    border-radius:20px;
+    text-align:center;
+    backdrop-filter:blur(8px);
+}
+
+h1{
+    color:white;
+    font-size:48px;
+    margin-bottom:10px;
+}
+
+p{
+    color:#ddd;
+    margin-bottom:25px;
+}
+
+.btn{
+    display:inline-block;
+    padding:15px 30px;
+    background:#229ED9;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+}
+</style>
